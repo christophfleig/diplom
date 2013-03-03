@@ -1,0 +1,6 @@
+# grin
+User-agent: *
+Disallow: /login/
+Disallow: /search
+Disallow: /book
+Disallow: /tag
