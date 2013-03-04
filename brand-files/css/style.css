@@ -16,7 +16,7 @@ a:hover { color: #289d1f; }
 
 .no-hover:hover { background: black !important; }
 
-a.bold-link { background: yellow; }
+a.bold-link { }
 a.bold-link:hover { background: white; }
 
 a.no-decorations {color: inherit; outline:inherit;}
