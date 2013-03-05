@@ -1,0 +1,41 @@
+h1 {
+background-color: white;
+color: #a3c559;
+padding: 8px;
+border-radius: 14px;
+margin-bottom: 10px;
+
+}
+
+h2{
+background-color: rgb(243, 243, 242);
+padding: 8px;
+border-radius: 14px;
+margin-bottom: 16px!important;
+width: 549px!important;
+margin-left: 0px!important;
+height: 17px;
+
+}
+
+.service-sitebar{
+
+float: left;
+margin-right: 6px;
+
+}
+
+.user-info{
+
+  display: none!important;
+}
+
+.mitarbeiter {
+height: 291px;
+font-size: 15px;
+font-weight: bolder;
+}
+
+.mitarbeiter img {
+margin-right: 6px;
+}
