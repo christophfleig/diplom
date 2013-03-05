@@ -15,7 +15,7 @@
 {template .Css}
 	{meta override=true}
 	{load_css_group('whitelabel.css')}
-	{load_brand_css('grin-custom.css','grin-frameset.css')}
+	{load_brand_css('diplomica.css','grin-custom.css','grin-frameset.css')}
 {/template}
 
 {*
@@ -59,7 +59,7 @@
         			{else}
                 	<li class="nav_main"
         			{/if}>
-					{link_to(NLS('Page::Commons::BecomeAnAuthor'),OPTION('base-href-upload',{lang:GrinEnv.lang}))}
+					<a href="autor-dummy.html">Autor werden</a>
 					{if RegExp("^\/[a-z]{2}\/upload$").test(GrinEnv.request_full_path)}
                 	<div class="arrow-bottom-on"
         			{else}
@@ -72,7 +72,7 @@
         			{else}
                 	<li class="nav_main"
         			{/if}>
-					<a href="{OPTION('base-href-main')}{GrinEnv.lang}/catalog/">{NLS('Page::Menu::Catalogue')}</a>
+					<a href="search?searchstring=&publication_type=ebook&source_type=document%2Cexternal_book%2Cexternal_document">{NLS('Page::Menu::Catalogue')}</a>
 					{if RegExp("^\/[a-z]{2}\/catalog\/$").test(GrinEnv.request_full_path)}
                 	<div class="arrow-bottom-on"
         			{else}
@@ -94,7 +94,7 @@
 	        			{else}
 	                	<li class="nav_main"
 	        			{/if}>
-						<a href="{OPTION('base-href-main')}{GrinEnv.lang}/help/author">{NLS('Page::Menu::Help')}</a>
+						<a href="help-dummy.html">{NLS('Page::Menu::Help')}</a>
 						{if RegExp("\/[a-z]{2}\/help").test(GrinEnv.request_full_path)}
                 		<div class="arrow-bottom-on"
         				{else}
@@ -122,10 +122,10 @@
 				<a href="{OPTION('base-href-blog')}">{NLS('Page::Menu::Blog')}</a>
 			</div>
 			<div class="header-items">
-				{link_to(brand_img('grin_twitter.png',null,'grin-twitter-fb'),'http://www.twitter.com/grin_com',null,{target:'_blank'})}
+				{link_to(brand_img('grin_twitter.png',null,'grin-twitter-fb'),'http://twitter.com/DiplomicaVerlag',null,{target:'_blank'})}
 			</div>
 			<div class="header-items-images">
-				{link_to(brand_img('grin_fb.png',null,'grin-twitter-fb'),'http://www.facebook.com/grincom',null,{target: '_blank'})}
+				{link_to(brand_img('grin_fb.png',null,'grin-twitter-fb'),'http://www.facebook.com/DiplomicaVerlag',null,{target: '_blank'})}
 			</div>
 		</div>
 		<div class="nav_right">
@@ -155,7 +155,9 @@
 {template.Footer}
 {meta override=true}	
 	<div class="footer">
-		<div class="column">
+<a href="impressum.html">Impressum</a> | <a href="AGB.html">AGB</a> | <a href="about.html">Über den Verlag</a> | <a href="partner.html">Partner</a>
+
+		{*<div class="column">
 			<div class="footer-1st-element">{NLS('Page::Menu::General')}</div>
 			<ul>
 				<li>{link_to_static(NLS('Page::Menu::Home'),'',null)}</li>
@@ -237,7 +239,7 @@
 				{link_to(brand_img('grin_twitter.png',null,null),'http://www.twitter.com/grin_com',null,{target:'_blank'})}
 			</div>
 		</div>
-		<div class="clear-all"></div>
+		<div class="clear-all"></div>*}
 	</div>
 {/template}
 
@@ -361,3 +363,4 @@
 		</div>
 	</noscript>
 {/template}
+
