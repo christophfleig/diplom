@@ -49,7 +49,7 @@ margin-top: 465px;
 }
 
 .cbox.tabbar.first {
-margin-top: 30px!important;
+top: 20px;
 width: 575px;
 right: 15px;
 }
