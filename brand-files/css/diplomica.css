@@ -44,7 +44,6 @@ margin-right: 6px;
 margin-top: 465px;
 }
 
-.page-wrapper > * {
-margin-left: 0px!important;
-margin-right: 0px!important;
+.home{
+  right: 15px;
 }
