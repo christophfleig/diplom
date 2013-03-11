@@ -108,10 +108,10 @@
 {template .Main}
 	{meta allow_override=true}
 	<div class="top-info">
-		{if GrinEnv.i_am_grin || GrinEnv.i_am_hausarbeiten}
-			<a class="etrusted" href="{if GrinEnv.brand == 'hausarbeiten'}{OPTION('base-href-main')}help/buyers#buying-paying{else}{OPTION('base-href-main')}{GrinEnv.lang}/help/buyers#buying-paying{/if}">
+		{*{if GrinEnv.i_am_grin || GrinEnv.i_am_hausarbeiten}
+			<a class="etrusted" href="{if GrinEnv.brand == 'hausarbeiten'}{OPTION('base-href-main')}help/buyers#buying-paying{else}{OPTION('base-href-main')}{GrinEnv.lang}/help/buyers#buying-paying{/if}">*}
 				{brand_img('trusted-shops.png',null,'etrusted-logo')}
-			</a>
+			{*</a>*}
 		{/if}
 
 		{call .AdminButton}
