@@ -1,4 +1,6 @@
-{namespace Frameset}
+User-agent: *
+Sitemap: /xmlsitemap/external_book_0.xml
+Sitemap: /xmlsitemap/index.xml{namespace Frameset}
 
 
 {**
@@ -54,19 +56,7 @@
         		{/if}>
 				</div>
 				</li>
-					{if RegExp("^\/[a-z]{2}\/upload$").test(GrinEnv.request_full_path)}
-                	<li class="nav_main_on"
-        			{else}
-                	<li class="nav_main"
-        			{/if}>
-					<a href="autor-dummy.html">Autor werden</a>
-					{if RegExp("^\/[a-z]{2}\/upload$").test(GrinEnv.request_full_path)}
-                	<div class="arrow-bottom-on"
-        			{else}
-                	<div class="arrow-bottom"
-        			{/if}>
-					</div>
-				</li> 
+					
 					{if RegExp("^\/[a-z]{2}\/catalog\/$").test(GrinEnv.request_full_path)}
                 	<li class="nav_main_on"
         			{else}
@@ -80,6 +70,19 @@
         			{/if}> 
 					</div>
 				</li>
+				{if RegExp("^\/[a-z]{2}\/upload$").test(GrinEnv.request_full_path)}
+                	<li class="nav_main_on"
+        			{else}
+                	<li class="nav_main"
+        			{/if}>
+					<a href="autor-dummy.html">Autor werden</a>
+					{if RegExp("^\/[a-z]{2}\/upload$").test(GrinEnv.request_full_path)}
+                	<div class="arrow-bottom-on"
+        			{else}
+                	<div class="arrow-bottom"
+        			{/if}>
+					</div>
+				</li> 
 				{if GrinEnv.i_am_hausarbeiten}
 
 				{else}
@@ -364,3 +367,8 @@
 	</noscript>
 {/template}
 
+
+Disallow: /shoppingcart/
+Disallow: /login/
+Disallow: /checkout/
+Disallow: /kontakt.html
