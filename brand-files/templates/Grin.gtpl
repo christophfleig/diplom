@@ -1,6 +1,4 @@
-User-agent: *
-Sitemap: /xmlsitemap/external_book_0.xml
-Sitemap: /xmlsitemap/index.xml{namespace Frameset}
+{namespace Frameset}
 
 
 {**
