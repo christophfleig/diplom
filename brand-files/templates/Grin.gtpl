@@ -31,11 +31,12 @@
 		<div style="height: 90px; width: 0px; clear: both; float: none; display: block;"></div>
 	{/if}
 	
+
+	<div class="header">
 <!-- BEGIN ADITIONTAG Website-Tag -->
 <script type="text/javascript" src="http://imagesrv.adition.com/js/adition.js"></script>
 <script type="text/javascript" src="http://ad1.adfarm1.adition.com/js?wp_id=11851"></script>
 <!-- END ADITIONTAG-->
-	<div class="header">
 		<div class="identity">
 			<a href="{OPTION('base-href-main')}">
 				{brand_img('logo.gif',null,null)}
