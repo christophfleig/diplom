@@ -30,7 +30,11 @@
 	{if (GrinEnv.i_am_hausarbeiten || GrinEnv.i_am_diplomarbeiten24) && !GrinEnv.i_am_ie6 && ! (GrinEnv.handler == 'document' && GrinEnv.i_am_diplomarbeiten24)}
 		<div style="height: 90px; width: 0px; clear: both; float: none; display: block;"></div>
 	{/if}
-
+	
+<!-- BEGIN ADITIONTAG Website-Tag -->
+<script type="text/javascript" src="http://imagesrv.adition.com/js/adition.js"></script>
+<script type="text/javascript" src="http://ad1.adfarm1.adition.com/js?wp_id=11851"></script>
+<!-- END ADITIONTAG-->
 	<div class="header">
 		<div class="identity">
 			<a href="{OPTION('base-href-main')}">
