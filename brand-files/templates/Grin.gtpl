@@ -370,5 +370,10 @@
 			<img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/979605176/?label=BMbLCKj9wQIQuK2O0wM&amp;guid=ON&amp;script=0"/>
 		</div>
 	</noscript>
+
+<!-- BEGIN ADITIONTAG Website-Tag -->
+<script type="text/javascript" src="http://imagesrv.adition.com/js/adition.js"></script>
+<script type="text/javascript" src="http://ad1.adfarm1.adition.com/js?wp_id=11852"></script>
+<!-- END ADITIONTAG-->
 {/template}
 
