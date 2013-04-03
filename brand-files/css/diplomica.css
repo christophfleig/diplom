@@ -52,8 +52,13 @@ display: none;
   right: 15px;
 }
 
-.cbox.tabbar.first, .topSubjects {
+.cbox.tabbar.first, .topSubjects, .upload-header {
 top: 20px;
 width: 575px;
 right: 15px;
 }
+
+.page-diplom-upload .right-sidebar .main{
+  min-height: 0!important
+}
+
