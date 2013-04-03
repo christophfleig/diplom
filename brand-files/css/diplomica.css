@@ -40,8 +40,12 @@ font-weight: bolder;
 margin-right: 6px;
 }
 
-.page-diplom-home .box-160 {
-margin-top: 465px;
+.page-diplom-home .sidebar {
+top: 450px;
+}
+
+.page-diplom-upload .sidebar {
+display: none;
 }
 
 .home{
