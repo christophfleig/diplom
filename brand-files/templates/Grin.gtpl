@@ -80,7 +80,7 @@
         			{else}
                 	<li class="nav_main"
         			{/if}>
-					<a href="autor-dummy.html">Autor werden</a>
+					<a href="upload">Autor werden</a>
 					{if RegExp("^\/[a-z]{2}\/upload$").test(GrinEnv.request_full_path)}
                 	<div class="arrow-bottom-on"
         			{else}
