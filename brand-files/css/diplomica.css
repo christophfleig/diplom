@@ -52,7 +52,7 @@ display: none;
   right: 15px;
 }
 
-.cbox.tabbar.first, .topSubjects, .upload-header {
+.cbox.tabbar.first, .topSubjects{
 top: 20px;
 width: 575px;
 right: 15px;
@@ -75,3 +75,12 @@ right: 1px;
 bottom: 15px;
 }
 
+.upload-header.tabbar {
+right: 15px;
+bottom: 19px;
+}
+
+.page-diplom-upload .main.page-wrapper {
+bottom: 31px;
+height: 677px!important;
+}
