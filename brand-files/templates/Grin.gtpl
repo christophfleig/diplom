@@ -165,7 +165,7 @@
 	<div class="footer">
 <a href="impressum.html">Impressum</a> | <a href="AGB.html">AGB</a> | <a href="about.html">Über den Verlag</a> | <a href="partner.html">Partner</a>
 
-		{*<div class="column">
+		<div class="column">
 			<div class="footer-1st-element">{NLS('Page::Menu::General')}</div>
 			<ul>
 				<li>{link_to_static(NLS('Page::Menu::Home'),'',null)}</li>
@@ -247,7 +247,7 @@
 				{link_to(brand_img('grin_twitter.png',null,null),'http://www.twitter.com/grin_com',null,{target:'_blank'})}
 			</div>
 		</div>
-		<div class="clear-all"></div>*}
+		<div class="clear-all"></div>
 	</div>
 {/template}
 
