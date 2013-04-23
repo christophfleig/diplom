@@ -368,7 +368,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 .home .upload-button { position: absolute; top: 60%; left: 2%; display: block; background: url($BRANDIMGPATH$/autor-werden.png); width: 295px; height: 47px; padding: 20px 0 0 15px; font-family: Regular, "Regular-ie", Arial, sans-serif; color: white!important; text-decoration: none; font-size: 28px; line-height: 1em; }
 .home .upload-info { padding-left: 20px; width: 35%;}
 
-.upload-upload-button .upload-button {position: absolute;font-family: "Regular", Arial, sans-serif;color: #fff;text-decoration: none;display: block;width: 310px;border: #f00;border-radius: 5px;line-height: 1.6em;text-align: center;box-shadow: 0px 0px 4px #333;margin-left: 0px; height: 47px; padding-top: 18px;font-size: 20px;
+.upload-upload-button .upload-button {position: absolute;font-family: "Regular", Arial, sans-serif;color: #fff;text-decoration: none;display: block;width: 310px;border: #f00;border-radius: 13px;line-height: 1.6em;text-align: center;box-shadow: 0px 0px 4px #333;margin-left: 0px; height: 47px; padding-top: 18px;font-size: 20px;
 background: url($BRANDIMGPATH$/autor-werden-blanko.png);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43b732', endColorstr='#379629',GradientType=0 ); /* IE6-9 */}
 .handler-index .upload-buttons object.swfupload {margin-top: 20px;}
