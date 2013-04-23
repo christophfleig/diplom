@@ -163,8 +163,6 @@
 {template.Footer}
 {meta override=true}	
 	<div class="footer">
-<a href="impressum.html">Impressum</a> | <a href="AGB.html">AGB</a> | <a href="about.html">Über den Verlag</a> | <a href="partner.html">Partner</a>
-
 		<div class="column">
 			<div class="footer-1st-element">{NLS('Page::Menu::General')}</div>
 			<ul>
@@ -216,7 +214,7 @@
 			</ul>
 		</div>
 		<div class="column">
-			<div class="footer-1st-element"></div>
+			<div class="footer-1st-element">   </div>
 			<ul>
 				<li>Copyright</li>
 				<li>&#169; Diplomica Verlag GmbH</li>
@@ -232,7 +230,7 @@
 			</ul>
 		</div>
 		<div class="column-big">
-		<div class="footer-1st-element"></div>
+		<div class="footer-1st-element">    </div>
 		<ul>
 			Diplom.de steht seit 1996 für die professionelle und 
 			hochwertige Veröffentlichung akademischer 
