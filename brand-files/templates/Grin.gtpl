@@ -215,6 +215,8 @@
 		</div>
 		<div class="column">
 			<div class="footer-1st-element">   </div>
+			<div class="footer-1st-element">   </div>
+			<div class="footer-1st-element">   </div>
 			<ul>
 				<li>Copyright</li>
 				<li>&#169; Diplomica Verlag GmbH</li>
@@ -231,6 +233,8 @@
 		</div>
 		<div class="column-big">
 		<div class="footer-1st-element">    </div>
+		<div class="footer-1st-element">   </div>
+		<div class="footer-1st-element">   </div>
 		<ul>
 			Diplom.de steht seit 1996 für die professionelle und 
 			hochwertige Veröffentlichung akademischer 
