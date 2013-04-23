@@ -84,3 +84,7 @@ bottom: 19px;
 bottom: 22px;
 height: 677px!important;
 }
+
+.page h1 {
+	margin-top: 15px;
+}
