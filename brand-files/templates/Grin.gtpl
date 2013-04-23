@@ -177,7 +177,7 @@
 				<li><a href="{OPTION('base-href-blog')}">{NLS('Page::Menu::Blog')}</a></li>
 			</ul>
 			<ul>
-				<li>{link_to_static(NLS('Page::Menu::About'),'about.html',null)}</li>
+				<li>{link_to_static(NLS('Page::Menu::About'),'../about.html',null)}</li>
 				<li>{link_to_static(NLS('Page::Menu::About::Jobs'),'jobs.html',null)}</li>
 				<li>{link_to_static(NLS('Page::Menu::About::Press'),'press.html',null)}</li>
 				<li>{link_to_static(NLS('Page::Partners'),'partners.html',null)}</li>
@@ -188,7 +188,7 @@
 		<div class="column">
 			<div class="footer-1st-element">{NLS('Page::Menu::Authors')}</div>
 			<ul>
-				<li>{link_to_static(NLS('Page::Commons::BecomeAnAuthor'),'help/author',null)}</li>
+				<li>{link_to_static(NLS('Page::Commons::BecomeAnAuthor'),'../help-dummy.html',null)}</li>
 				<li>{link_to_static(NLS('Help::Navigation::YourOptions'),'help/author#options',null)}</li>
 				<li>{link_to_static(NLS('Help::Navigation::TheChannels'),'help/author#channels',null)}</li>
 				<li>{link_to_static(NLS('Help::Navigation::TypesAndFormats'),'help/author#formats',null)}</li>
