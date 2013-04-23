@@ -216,26 +216,39 @@
 			</ul>
 		</div>
 		<div class="column">
-			<div class="footer-1st-element">{NLS('Help::Tab::Affiliates')}</div>
+			<div class="footer-1st-element"></div>
 			<ul>
-				<li>{link_to_static(NLS('Ambassador::BecomeAmbassador'),'help/partner',null)}</li>
-				<li>{link_to_static(NLS('Page::Menu::PartnerProgram::EnrollAuthors'),'help/partner#enroll',null)}</li>
-				<li>{link_to_static(NLS('Help::Affiliates::Section2::Headline'),'help/partner#earn',null)}</li>
-				<li>{link_to_static(NLS('Help::Affiliates::Section3::Headline'),'help/partner#services',null)}</li>
+				<li>Copyright</li>
+				<li>&#169; Diplomica Verlag GmbH</li>
+				<li>1996 - 2013</li>
 			</ul>
-			<div class="footer-1st-element">Copyright</div>
+			<div class="footer-1st-element"></div>
 			<ul>
-				{NLS('Page::Footer::Copyright2')}
+				<li>Alle Inhalte urheberrechtlich geschützt. Kopieren und verbreiten untersagt.</li>
+			</ul>
+			<ul>
+				<li><a href="mailto:info@diplom.de">info@diplom.de</a></li>
+				<li><a href="http://www.diplomica.de/">Diplomica Verlagsgruppe</a></li>
 			</ul>
 		</div>
 		<div class="column-big">
-			{NLS('Page::Footer::AboutGRIN')}
-			<div class="social-buttons">
-				{NLS('Page::Footer::RecommendGRIN')}
-				{link_to(brand_img('grin_gplus.png',null,null),'https://plus.google.com/u/0/104119599352556600480/',null,{target: '_blank'})}
-				{link_to(brand_img('grin_fb.png',null,null),'http://www.facebook.com/grincom',null,{target: '_blank'})}
-				{link_to(brand_img('grin_twitter.png',null,null),'http://www.twitter.com/grin_com',null,{target:'_blank'})}
-			</div>
+		<div class="footer-1st-element"></div>
+		<ul>
+			Diplom.de steht seit 1996 für die professionelle und 
+			hochwertige Veröffentlichung akademischer 
+			Abschlussarbeiten im Original als eBook und Buch.
+		</ul>
+		<ul>
+			Bachelorarbeiten, Masterarbeiten, Diplomarbeiten, 
+			Magisterarbeiten, Dissertationen und andere 
+			Abschlussarbeiten aus allen Fachbereichen 
+			und Hochschulen können Sie bei uns als eBook
+			sofort per Download beziehen oder sich als Buch
+			zusenden lassen.
+		</ul>
+		<ul>
+			<li>{link_to_static('Nutzen Sie unsere kostenfreie Buchveröffentlichung!','../upload',null)}</li> 
+		</ul>
 		</div>
 		<div class="clear-all"></div>
 	</div>
