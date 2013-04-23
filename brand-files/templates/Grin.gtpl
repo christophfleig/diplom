@@ -15,7 +15,7 @@
 {template .Css}
 	{meta override=true}
 	{load_css_group('whitelabel.css')}
-	{load_brand_css('diplomica.css','grin-custom.css','grin-frameset.css')}
+	{load_brand_css('diplomica.css','grin-frameset.css')}
 	
 
 {/template}
