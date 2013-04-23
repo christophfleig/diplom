@@ -369,13 +369,7 @@ a.etrusted { margin: 0 0 0 -9px; position: relative; top: -1px; }
 .home .upload-info { padding-left: 20px; width: 35%;}
 
 .upload-upload-button .upload-button {position: absolute;font-family: "Regular", Arial, sans-serif;color: #fff;text-decoration: none;display: block;width: 310px;border: #f00;border-radius: 5px;line-height: 1.6em;text-align: center;box-shadow: 0px 0px 4px #333;margin-left: 0px; height: 47px; padding-top: 18px;font-size: 20px;
-background: #43b732; /* Old browsers */
-background: -moz-linear-gradient(top, #43b732 0%, #379629 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#43b732), color-stop(100%,#379629)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #43b732 0%,#379629 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #43b732 0%,#379629 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #43b732 0%,#379629 100%); /* IE10+ */
-background: linear-gradient(to bottom, #43b732 0%,#379629 100%); /* W3C */
+background: url($BRANDIMGPATH$/autor-werden-blanko.png);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43b732', endColorstr='#379629',GradientType=0 ); /* IE6-9 */}
 .handler-index .upload-buttons object.swfupload {margin-top: 20px;}
 .nav-button { background: transparent url($BRANDIMGPATH$/nav_home_off.png); background-repeat: no-repeat; width: 197px; height: 79px; float: left; position: relative; top: -10px; padding: 27px 30px 15px 30px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; cursor: pointer; font-size: 17px; font-family: Regular, "Regular-ie", Arial, sans-serif; text-align: center; color: #474747; }
