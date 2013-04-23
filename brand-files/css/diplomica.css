@@ -88,3 +88,9 @@ height: 677px!important;
 .page h1 {
 	margin-top: 15px;
 }
+
+.list {
+	list-style: disc;
+	margin-left: 15px;
+	padding: 5px;
+}
